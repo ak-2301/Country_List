@@ -1,0 +1,54 @@
+.btn-search{
+    width: 60px;
+    border: 2px solid lightgrey;
+    background-color: white;
+    border-radius: 3px;
+}
+.btn-map{
+    border: 2px solid blue;
+    color: blue;
+    font-size: 15px;
+    background-color: white;
+    padding: 3px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    width: 100px;
+    
+}
+.btn-detail{
+    border: 2px solid blue;
+    color: blue;
+    font-size: 15px;
+    background-color: white;
+    padding: 3px;
+    cursor: pointer;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    width: 100px;
+    text-decoration: none;
+}
+.country-info{
+    font-size: 15px;
+    
+}
+.country-all p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+}
+/* #detail-img{
+    height: 250px;
+    width: 350px;
+} */
+
+.head-country{
+    margin-top: 90px;
+    margin-left: 400px;
+}
+
+@media(max-width:575px){
+    .head-country{
+        margin-left: 10px;
+    }
+}
